@@ -1,0 +1,18 @@
+._nav {
+    position: relative;
+    left: 40%;
+}
+
+.Nav.link {
+    padding-left: 40px;
+}
+
+@media screen and (max-width:992px) {
+    ._nav {
+        position: relative;
+        left: 0;
+    }
+    .space {
+        padding-left: 0;
+    }
+}

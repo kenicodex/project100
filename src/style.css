@@ -1,0 +1,46 @@
+.about-text{
+    padding: 10% 0 0 10%;
+}
+.about{
+    height: 70vh;
+}
+._nav{
+    height: 50px;
+}
+@media screen and (max-width:992px){
+    .hs_small{
+        height: auto;
+    }
+    .ws_100{
+        width: 100%;
+    }
+    .body{
+        height: auto;
+    }
+    .p_g{
+        display: block;
+        margin: auto;
+        height: auto;
+    }
+    .ds-none{
+        display: none;
+    }
+    .contact{
+        height: auto;
+    }
+    .about-text{
+        padding: 0;
+        widows: 100%;
+    }
+    .about{
+        height: auto;
+        padding: 5%;
+    }
+    .about-img{
+        display: none;
+    }
+    ._nav{
+        height: 200px;
+    }
+
+}
