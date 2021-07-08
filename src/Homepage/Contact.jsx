@@ -3,7 +3,7 @@ import React from 'react';
 function Contact(props) {
     return (
         <form className="col-lg-8 col-sm-10 mx-auto contact pb-4" style={{paddingTop:"5%"}}>
-           <div>
+           <div className="text-center">
                <h1><h1> Contact Us</h1></h1>
            </div>
             <div className="form-row">
@@ -41,14 +41,14 @@ function Contact(props) {
                         <input type="text" className="form-control p-4" id="inputZip" />
                     </div>
                 </div>
-                <div className="form-group">
+                {/* <div className="form-group">
                     <div className="form-check">
                         <input className="form-check-input" type="checkbox" id="gridCheck" />
                         <label className="form-check-label" for="gridCheck">
                             Check me out
                  </label>
                     </div>
-                </div>
+                </div> */}
                 <div className="text-center">
                     
                 <button type="submit" className="btn btn-primary">Send</button>

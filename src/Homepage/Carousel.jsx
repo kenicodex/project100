@@ -24,7 +24,7 @@ function Example() {
                                 alt={"Slide" + index}
                             />
                             <Carousel.Caption >
-                                <h1 className="text-dark position-absolute text-center" style={{top:"-300px",left:"35%",fontSize:"80px"}}>{h3}</h1>
+                                <h1 className="text-dark position-absolute text-center slide-text" style={{top:"-300px"}}>{h3}</h1>
                                 <p className="text-secondary" style={{fontSize:'20px'}}>{p}</p>
                             </Carousel.Caption>
                         </Carousel.Item>
