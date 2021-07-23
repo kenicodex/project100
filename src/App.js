@@ -14,9 +14,9 @@ function App(props) {
       <Navbars />
       <Header />
       <Body />
-      <About /> 
-      <Contact />
-      <Footer />
+      {/* <About />  */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
