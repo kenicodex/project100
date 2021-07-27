@@ -6,7 +6,7 @@
 .Nav.link {
     padding-left: 40px;
 }
-
+a {padding-left: 30px ; color:rgba(22, 18, 18, 0.583); font:17px open}
 @media screen and (max-width:992px) {
     ._nav {
         position: relative;
